@@ -1,0 +1,777 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="App_Uno.csproj">
+      <Assembly Name="App_Uno, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="86" />
+          <Metric Name="CyclomaticComplexity" Value="49" />
+          <Metric Name="ClassCoupling" Value="55" />
+          <Metric Name="DepthOfInheritance" Value="3" />
+          <Metric Name="SourceLines" Value="217" />
+          <Metric Name="ExecutableLines" Value="45" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="App_Uno">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="84" />
+              <Metric Name="CyclomaticComplexity" Value="7" />
+              <Metric Name="ClassCoupling" Value="26" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="65" />
+              <Metric Name="ExecutableLines" Value="15" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="90" />
+                  <Metric Name="CyclomaticComplexity" Value="2" />
+                  <Metric Name="ClassCoupling" Value="8" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="16" />
+                  <Metric Name="ExecutableLines" Value="3" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main(string[] args)" File="C:\Users\SQDM\source\repos\App_Uno\Program.cs" Line="8">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="93" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IHostBuilder Program.CreateHostBuilder(string[] args)" File="C:\Users\SQDM\source\repos\App_Uno\Program.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="84" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="6" />
+                      <Metric Name="SourceLines" Value="8" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="Startup">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="78" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="19" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="43" />
+                  <Metric Name="ExecutableLines" Value="12" />
+                </Metrics>
+                <Members>
+                  <Method Name="Startup.Startup(IConfiguration configuration)" File="C:\Users\SQDM\source\repos\App_Uno\Startup.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="96" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="IConfiguration Startup.Configuration" File="C:\Users\SQDM\source\repos\App_Uno\Startup.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="IConfiguration Startup.Configuration.get" File="C:\Users\SQDM\source\repos\App_Uno\Startup.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Method Name="void Startup.ConfigureServices(IServiceCollection services)" File="C:\Users\SQDM\source\repos\App_Uno\Startup.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="97" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="void Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env)" File="C:\Users\SQDM\source\repos\App_Uno\Startup.cs" Line="25">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="63" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="15" />
+                      <Metric Name="SourceLines" Value="27" />
+                      <Metric Name="ExecutableLines" Value="10" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="App_Uno.Controllers">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="87" />
+              <Metric Name="CyclomaticComplexity" Value="9" />
+              <Metric Name="ClassCoupling" Value="12" />
+              <Metric Name="DepthOfInheritance" Value="3" />
+              <Metric Name="SourceLines" Value="31" />
+              <Metric Name="ExecutableLines" Value="8" />
+            </Metrics>
+            <Types>
+              <NamedType Name="HomeController">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="87" />
+                  <Metric Name="CyclomaticComplexity" Value="9" />
+                  <Metric Name="ClassCoupling" Value="12" />
+                  <Metric Name="DepthOfInheritance" Value="3" />
+                  <Metric Name="SourceLines" Value="29" />
+                  <Metric Name="ExecutableLines" Value="8" />
+                </Metrics>
+                <Members>
+                  <Field Name="ILogger&lt;HomeController&gt; HomeController._logger" File="C:\Users\SQDM\source\repos\App_Uno\Controllers\HomeController.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="IGlobal HomeController._global" File="C:\Users\SQDM\source\repos\App_Uno\Controllers\HomeController.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="HomeController.HomeController(ILogger&lt;HomeController&gt; logger, IGlobal global)" File="C:\Users\SQDM\source\repos\App_Uno\Controllers\HomeController.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="85" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IActionResult HomeController.Index()" File="C:\Users\SQDM\source\repos\App_Uno\Controllers\HomeController.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IActionResult HomeController.Privacy()" File="C:\Users\SQDM\source\repos\App_Uno\Controllers\HomeController.cs" Line="24">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="83" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="6" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IActionResult HomeController.Error()" File="C:\Users\SQDM\source\repos\App_Uno\Controllers\HomeController.cs" Line="31">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="79" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="7" />
+                      <Metric Name="SourceLines" Value="5" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                  </Method>
+                  <Method Name="IActionResult HomeController.Prueba()" File="C:\Users\SQDM\source\repos\App_Uno\Controllers\HomeController.cs" Line="35">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="88" />
+                      <Metric Name="CyclomaticComplexity" Value="3" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="4" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="App_Uno.Methods">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="83" />
+              <Metric Name="CyclomaticComplexity" Value="2" />
+              <Metric Name="ClassCoupling" Value="10" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="32" />
+              <Metric Name="ExecutableLines" Value="7" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Global">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="66" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="22" />
+                  <Metric Name="ExecutableLines" Value="7" />
+                </Metrics>
+                <Members>
+                  <Method Name="IList&lt;Metrica&gt; Global.ConvertXML(string routeXML)" File="C:\Users\SQDM\source\repos\App_Uno\Methods\Global.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="66" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="9" />
+                      <Metric Name="SourceLines" Value="19" />
+                      <Metric Name="ExecutableLines" Value="7" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+              <NamedType Name="IGlobal">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="1" />
+                  <Metric Name="ClassCoupling" Value="2" />
+                  <Metric Name="DepthOfInheritance" Value="0" />
+                  <Metric Name="SourceLines" Value="4" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Method Name="IList&lt;Metrica&gt; IGlobal.ConvertXML(string routeXML)" File="C:\Users\SQDM\source\repos\App_Uno\Methods\IGlobal.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="2" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="App_Uno.Models">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="95" />
+              <Metric Name="CyclomaticComplexity" Value="4" />
+              <Metric Name="ClassCoupling" Value="0" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="9" />
+              <Metric Name="ExecutableLines" Value="2" />
+            </Metrics>
+            <Types>
+              <NamedType Name="ErrorViewModel">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="95" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="6" />
+                  <Metric Name="ExecutableLines" Value="2" />
+                </Metrics>
+                <Members>
+                  <Property Name="string ErrorViewModel.RequestId" File="C:\Users\SQDM\source\repos\App_Uno\Models\ErrorViewModel.cs" Line="5">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string ErrorViewModel.RequestId.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\ErrorViewModel.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void ErrorViewModel.RequestId.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\ErrorViewModel.cs" Line="5">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="bool ErrorViewModel.ShowRequestId" File="C:\Users\SQDM\source\repos\App_Uno\Models\ErrorViewModel.cs" Line="7">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="95" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="2" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="bool ErrorViewModel.ShowRequestId.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\ErrorViewModel.cs" Line="7">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="95" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="App_Uno.Models.Home">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="100" />
+              <Metric Name="CyclomaticComplexity" Value="22" />
+              <Metric Name="ClassCoupling" Value="0" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="17" />
+              <Metric Name="ExecutableLines" Value="0" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Metrica">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="100" />
+                  <Metric Name="CyclomaticComplexity" Value="22" />
+                  <Metric Name="ClassCoupling" Value="0" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="14" />
+                  <Metric Name="ExecutableLines" Value="0" />
+                </Metrics>
+                <Members>
+                  <Property Name="string Metrica.NamespaceProyect" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Metrica.NamespaceProyect.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.NamespaceProyect.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="10">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int Metrica.MetricMaintainabilityIndex" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="11">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Metrica.MetricMaintainabilityIndex.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MetricMaintainabilityIndex.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="11">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int Metrica.MetricCyclomaticComplexity" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="12">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Metrica.MetricCyclomaticComplexity.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MetricCyclomaticComplexity.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="12">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int Metrica.MetricClassCoupling" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="13">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Metrica.MetricClassCoupling.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MetricClassCoupling.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="13">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int Metrica.MetricDepthOfInheritance" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="14">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Metrica.MetricDepthOfInheritance.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MetricDepthOfInheritance.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="14">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int Metrica.MetricSourceLines" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="15">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Metrica.MetricSourceLines.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MetricSourceLines.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="15">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="int Metrica.MetricExecutableLines" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="16">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="int Metrica.MetricExecutableLines.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MetricExecutableLines.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="16">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Metrica.NamedTypeClass" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="17">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Metrica.NamedTypeClass.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.NamedTypeClass.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="17">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Metrica.MethodName" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="18">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Metrica.MethodName.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MethodName.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="18">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Metrica.MethodClass" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="19">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Metrica.MethodClass.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MethodClass.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="19">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="string Metrica.MethodLine" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="20">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="0" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="string Metrica.MethodLine.get" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Metrica.MethodLine.set" File="C:\Users\SQDM\source\repos\App_Uno\Models\Home\Metrica.cs" Line="20">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="0" />
+                          <Metric Name="SourceLines" Value="1" />
+                          <Metric Name="ExecutableLines" Value="0" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+          <Namespace Name="App_Uno.Properties">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="75" />
+              <Metric Name="CyclomaticComplexity" Value="5" />
+              <Metric Name="ClassCoupling" Value="10" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="63" />
+              <Metric Name="ExecutableLines" Value="13" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Resources">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="75" />
+                  <Metric Name="CyclomaticComplexity" Value="5" />
+                  <Metric Name="ClassCoupling" Value="10" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="48" />
+                  <Metric Name="ExecutableLines" Value="13" />
+                </Metrics>
+                <Members>
+                  <Field Name="ResourceManager Resources.resourceMan" File="C:\Users\SQDM\source\repos\App_Uno\Properties\Resources.Designer.cs" Line="27">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Field Name="CultureInfo Resources.resourceCulture" File="C:\Users\SQDM\source\repos\App_Uno\Properties\Resources.Designer.cs" Line="29">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="100" />
+                      <Metric Name="CyclomaticComplexity" Value="0" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="1" />
+                      <Metric Name="ExecutableLines" Value="0" />
+                    </Metrics>
+                  </Field>
+                  <Method Name="Resources.Resources()" File="C:\Users\SQDM\source\repos\App_Uno\Properties\Resources.Designer.cs" Line="32">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="1" />
+                      <Metric Name="ClassCoupling" Value="1" />
+                      <Metric Name="SourceLines" Value="3" />
+                      <Metric Name="ExecutableLines" Value="1" />
+                    </Metrics>
+                  </Method>
+                  <Property Name="ResourceManager Resources.ResourceManager" File="C:\Users\SQDM\source\repos\App_Uno\Properties\Resources.Designer.cs" Line="39">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="74" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="5" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="6" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="ResourceManager Resources.ResourceManager.get" File="C:\Users\SQDM\source\repos\App_Uno\Properties\Resources.Designer.cs" Line="40">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="74" />
+                          <Metric Name="CyclomaticComplexity" Value="2" />
+                          <Metric Name="ClassCoupling" Value="3" />
+                          <Metric Name="SourceLines" Value="7" />
+                          <Metric Name="ExecutableLines" Value="4" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                  <Property Name="CultureInfo Resources.Culture" File="C:\Users\SQDM\source\repos\App_Uno\Properties\Resources.Designer.cs" Line="54">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="98" />
+                      <Metric Name="CyclomaticComplexity" Value="2" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="13" />
+                      <Metric Name="ExecutableLines" Value="4" />
+                    </Metrics>
+                    <Accessors>
+                      <Method Name="CultureInfo Resources.Culture.get" File="C:\Users\SQDM\source\repos\App_Uno\Properties\Resources.Designer.cs" Line="55">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="100" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                      <Method Name="void Resources.Culture.set" File="C:\Users\SQDM\source\repos\App_Uno\Properties\Resources.Designer.cs" Line="58">
+                        <Metrics>
+                          <Metric Name="MaintainabilityIndex" Value="96" />
+                          <Metric Name="CyclomaticComplexity" Value="1" />
+                          <Metric Name="ClassCoupling" Value="1" />
+                          <Metric Name="SourceLines" Value="3" />
+                          <Metric Name="ExecutableLines" Value="1" />
+                        </Metrics>
+                      </Method>
+                    </Accessors>
+                  </Property>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>
