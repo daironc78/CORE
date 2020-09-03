@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SQDM\\source\\repos\\App_Uno\\App_Uno.csproj": {}
+    "C:\\Users\\SQDM\\Source\\Repos\\daironc78\\CORE\\App_Uno.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SQDM\\source\\repos\\App_Uno\\App_Uno.csproj": {
+    "C:\\Users\\SQDM\\Source\\Repos\\daironc78\\CORE\\App_Uno.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SQDM\\source\\repos\\App_Uno\\App_Uno.csproj",
+        "projectUniqueName": "C:\\Users\\SQDM\\Source\\Repos\\daironc78\\CORE\\App_Uno.csproj",
         "projectName": "App_Uno",
-        "projectPath": "C:\\Users\\SQDM\\source\\repos\\App_Uno\\App_Uno.csproj",
+        "projectPath": "C:\\Users\\SQDM\\Source\\Repos\\daironc78\\CORE\\App_Uno.csproj",
         "packagesPath": "C:\\Users\\SQDM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SQDM\\source\\repos\\App_Uno\\obj\\",
+        "outputPath": "C:\\Users\\SQDM\\Source\\Repos\\daironc78\\CORE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\SQDM\\AppData\\Roaming\\NuGet\\NuGet.Config",
