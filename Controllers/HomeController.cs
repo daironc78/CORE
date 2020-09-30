@@ -9,11 +9,9 @@ namespace App_Uno.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IGlobal _global;
-        public HomeController(ILogger<HomeController> logger, IGlobal global)
+        public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _global = global;
         }
 
         // METRICA EN ROJO
